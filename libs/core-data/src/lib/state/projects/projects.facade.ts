@@ -37,6 +37,7 @@ export class ProjectsFacade {
 
   deleteProject(project) {
     this.store.dispatch(new DeleteProject(project));
+    
   }
 
 }

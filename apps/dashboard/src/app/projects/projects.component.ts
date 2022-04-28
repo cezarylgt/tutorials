@@ -65,6 +65,7 @@ export class ProjectsComponent implements OnInit {
     // These will go away
     this.ns.emit('Project created!');
     this.resetCurrentProject();
+
   }
 
   updateProject(project) {
